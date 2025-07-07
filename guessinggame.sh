@@ -1,6 +1,6 @@
 
 echo "Hello, welcome to the guessing game. Please guess how many items are in the directory."
-dirsize=$(ls -1 /home/oladelemjr/finalAssignment | wc -l)
+dirsize=$(ls -1 . | wc -l)
 x=1
 function calculate {
     if [[ $1 -eq $dirsize ]]; then
